@@ -1,0 +1,52 @@
+db.getCollection('addresses').
+find({},
+{"restaurants_id":1,"name":1,"borough":1,"_id":0,"address.zipcode":1});
+
+
+
+
+
+/* 1 */
+{
+    "address" : {
+        "zipcode" : "10462"
+    },
+    "borough" : "Bronx",
+    "name" : "Morris Park Bake Shop"
+}
+
+/* 2 */
+{
+    "address" : {
+        "zipcode" : "11225"
+    },
+    "borough" : "Brooklyn",
+    "name" : "Wendy'S"
+}
+
+/* 3 */
+{
+    "address" : {
+        "zipcode" : "10019"
+    },
+    "borough" : "Manhattan",
+    "name" : "Dj Reynolds Pub And Restaurant"
+}
+
+/* 4 */
+{
+    "address" : {
+        "zipcode" : "11224"
+    },
+    "borough" : "Brooklyn",
+    "name" : "Riviera Caterer"
+}
+
+/* 5 */
+{
+    "address" : {
+        "zipcode" : "11374"
+    },
+    "borough" : "Queens",
+    "name" : "Tov Kosher Kitchen"
+}

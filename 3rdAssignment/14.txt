@@ -1,0 +1,23 @@
+db.getCollection('addresses').find({name:/^Wil/},{"restaurant_id":1,"cuisine":1});
+
+
+/* 1 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a112864e"),
+    "cuisine" : "Delicatessen",
+    "restaurant_id" : "40356483"
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a1128651"),
+    "cuisine" : "American ",
+    "restaurant_id" : "40357217"
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("6180c7664fa845b6a1129456"),
+    "cuisine" : "Pizza",
+    "restaurant_id" : "40871979"
+}

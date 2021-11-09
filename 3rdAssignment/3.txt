@@ -1,0 +1,39 @@
+db.getCollection('addresses').
+find({},{"restaurants_id":1,"name":1,"borough":1,"cuisine":1,"_id":0});
+
+
+
+/* 1 */
+{
+    "borough" : "Bronx",
+    "cuisine" : "Bakery",
+    "name" : "Morris Park Bake Shop"
+}
+
+/* 2 */
+{
+    "borough" : "Brooklyn",
+    "cuisine" : "Hamburgers",
+    "name" : "Wendy'S"
+}
+
+/* 3 */
+{
+    "borough" : "Manhattan",
+    "cuisine" : "Irish",
+    "name" : "Dj Reynolds Pub And Restaurant"
+}
+
+/* 4 */
+{
+    "borough" : "Brooklyn",
+    "cuisine" : "American ",
+    "name" : "Riviera Caterer"
+}
+
+/* 5 */
+{
+    "borough" : "Queens",
+    "cuisine" : "Jewish/Kosher",
+    "name" : "Tov Kosher Kitchen"
+}

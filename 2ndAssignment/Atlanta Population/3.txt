@@ -1,0 +1,7 @@
+db.getCollection('zip_codes').aggregate([{$match:{city:"ATLANTA"}},{$group:{_id:"$state"}},{$count:"number of zipcodes"}])
+
+
+/* 1 */
+{
+    "number of zipcodes" : 11
+}

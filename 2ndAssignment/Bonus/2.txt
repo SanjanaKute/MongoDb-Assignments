@@ -1,0 +1,26 @@
+db.getCollection('zip_codes').aggregate([{$group:{_id:{city:"$city"},population:{$avg:"$pop"}}},{$sort:{population:-1}},{$limit:3}])
+
+
+/* 1 */
+{
+    "_id" : {
+        "city" : "BELL GARDENS"
+    },
+    "population" : 99568.0
+}
+
+/* 2 */
+{
+    "_id" : {
+        "city" : "ARLETA"
+    },
+    "population" : 88114.0
+}
+
+/* 3 */
+{
+    "_id" : {
+        "city" : "SOUTH GATE"
+    },
+    "population" : 87026.0
+}

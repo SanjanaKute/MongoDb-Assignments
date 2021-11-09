@@ -1,0 +1,25 @@
+db.getCollection('posts').find({username:ObjectId("617e6787a7807afd4d9a5537")})
+
+/* 1 */
+{
+    "_id" : ObjectId("617e6890a7807afd4d9a553b"),
+    "username" : ObjectId("617e6787a7807afd4d9a5537"),
+    "title" : "Passes out at party",
+    "body" : "Wakes up early and cleans house"
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("617e68e7a7807afd4d9a553c"),
+    "username" : ObjectId("617e6787a7807afd4d9a5537"),
+    "title" : "Steals your identity",
+    "body" : "Raises your credit score"
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("617e6918a7807afd4d9a553d"),
+    "username" : ObjectId("617e6787a7807afd4d9a5537"),
+    "title" : "Reports a bug in your code",
+    "body" : "Sends your a Pull Request"
+}

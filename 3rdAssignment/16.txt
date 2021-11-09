@@ -1,0 +1,65 @@
+db.getCollection('addresses').find({name:/.*Reg.*/},{"restaurant_id":1,"name":1,"borough":1,"cuisine":1});
+
+
+/* 1 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a112864f"),
+    "borough" : "Brooklyn",
+    "cuisine" : "American ",
+    "name" : "Regina Caterers",
+    "restaurant_id" : "40356649"
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a112874c"),
+    "borough" : "Manhattan",
+    "cuisine" : "Café/Coffee/Tea",
+    "name" : "Caffe Reggio",
+    "restaurant_id" : "40369418"
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a112885b"),
+    "borough" : "Manhattan",
+    "cuisine" : "American ",
+    "name" : "Regency Hotel",
+    "restaurant_id" : "40382679"
+}
+
+/* 4 */
+{
+    "_id" : ObjectId("6180c75e4fa845b6a1128b78"),
+    "borough" : "Manhattan",
+    "cuisine" : "American ",
+    "name" : "Regency Whist Club",
+    "restaurant_id" : "40402377"
+}
+
+/* 5 */
+{
+    "_id" : ObjectId("6180c75e4fa845b6a1128c5b"),
+    "borough" : "Queens",
+    "cuisine" : "American ",
+    "name" : "Rego Park Cafe",
+    "restaurant_id" : "40523342"
+}
+
+/* 6 */
+{
+    "_id" : ObjectId("6180c7664fa845b6a11292c9"),
+    "borough" : "Queens",
+    "cuisine" : "Pizza",
+    "name" : "Regina Pizza",
+    "restaurant_id" : "40801325"
+}
+
+/* 7 */
+{
+    "_id" : ObjectId("6180c7664fa845b6a11294e0"),
+    "borough" : "Manhattan",
+    "cuisine" : "American ",
+    "name" : "Regal Entertainment Group",
+    "restaurant_id" : "40891782"
+}

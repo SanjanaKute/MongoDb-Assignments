@@ -1,0 +1,50 @@
+db.getCollection('posts').find({});
+
+
+/* 1 */
+{
+    "_id" : ObjectId("617e6890a7807afd4d9a553b"),
+    "username" : "GoodGuyGreg",
+    "title" : "Passes out at party",
+    "body" : "Wakes up early and cleans house"
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("617e68e7a7807afd4d9a553c"),
+    "username" : "GoodGuyGreg",
+    "title" : "Steals your identity",
+    "body" : "Raises your credit score"
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("617e6918a7807afd4d9a553d"),
+    "username" : "GoodGuyGreg",
+    "title" : "Reports a bug in your code",
+    "body" : "Sends your a Pull Request"
+}
+
+/* 4 */
+{
+    "_id" : ObjectId("617e694da7807afd4d9a553e"),
+    "username" : "ScumbagSteve",
+    "title" : "Borrows something",
+    "body" : "Sells it"
+}
+
+/* 5 */
+{
+    "_id" : ObjectId("617e6985a7807afd4d9a553f"),
+    "username" : "ScumbagSteve",
+    "title" : "Borrows everything",
+    "body" : "The end"
+}
+
+/* 6 */
+{
+    "_id" : ObjectId("617e69a5a7807afd4d9a5540"),
+    "username" : "ScumbagSteve",
+    "title" : "Forks your repo on github",
+    "body" : "Sets to private"
+}

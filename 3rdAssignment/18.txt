@@ -1,0 +1,401 @@
+db.getCollection('addresses').find({"borough":{$in:["Staten Island","Queens","Bronx","Brooklyn"]}},{"restaurant-'id":1,"name":1,"borough":1,"cuisine":1});
+
+/* 1 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a1128647"),
+    "borough" : "Bronx",
+    "cuisine" : "Bakery",
+    "name" : "Morris Park Bake Shop"
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a1128648"),
+    "borough" : "Brooklyn",
+    "cuisine" : "Hamburgers",
+    "name" : "Wendy'S"
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a112864a"),
+    "borough" : "Brooklyn",
+    "cuisine" : "American ",
+    "name" : "Riviera Caterer"
+}
+
+/* 4 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a112864b"),
+    "borough" : "Queens",
+    "cuisine" : "Jewish/Kosher",
+    "name" : "Tov Kosher Kitchen"
+}
+
+/* 5 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a112864c"),
+    "borough" : "Queens",
+    "cuisine" : "American ",
+    "name" : "Brunos On The Boulevard"
+}
+
+/* 6 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a112864d"),
+    "borough" : "Staten Island",
+    "cuisine" : "Jewish/Kosher",
+    "name" : "Kosher Island"
+}
+
+/* 7 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a112864e"),
+    "borough" : "Brooklyn",
+    "cuisine" : "Delicatessen",
+    "name" : "Wilken'S Fine Food"
+}
+
+/* 8 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a112864f"),
+    "borough" : "Brooklyn",
+    "cuisine" : "American ",
+    "name" : "Regina Caterers"
+}
+
+/* 9 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a1128650"),
+    "borough" : "Brooklyn",
+    "cuisine" : "Ice Cream, Gelato, Yogurt, Ices",
+    "name" : "Taste The Tropics Ice Cream"
+}
+
+/* 10 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a1128651"),
+    "borough" : "Bronx",
+    "cuisine" : "American ",
+    "name" : "Wild Asia"
+}
+
+/* 11 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a1128652"),
+    "borough" : "Brooklyn",
+    "cuisine" : "American ",
+    "name" : "C & C Catering Service"
+}
+
+/* 12 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a1128653"),
+    "borough" : "Brooklyn",
+    "cuisine" : "Chinese",
+    "name" : "May May Kitchen"
+}
+
+/* 13 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a1128655"),
+    "borough" : "Brooklyn",
+    "cuisine" : "Jewish/Kosher",
+    "name" : "Seuda Foods"
+}
+
+/* 14 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a1128656"),
+    "borough" : "Brooklyn",
+    "cuisine" : "Ice Cream, Gelato, Yogurt, Ices",
+    "name" : "Carvel Ice Cream"
+}
+
+/* 15 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a1128657"),
+    "borough" : "Queens",
+    "cuisine" : "Ice Cream, Gelato, Yogurt, Ices",
+    "name" : "Carvel Ice Cream"
+}
+
+/* 16 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a1128658"),
+    "borough" : "Brooklyn",
+    "cuisine" : "Delicatessen",
+    "name" : "Nordic Delicacies"
+}
+
+/* 17 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a112865a"),
+    "borough" : "Brooklyn",
+    "cuisine" : "American ",
+    "name" : "The Movable Feast"
+}
+
+/* 18 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a112865b"),
+    "borough" : "Queens",
+    "cuisine" : "Delicatessen",
+    "name" : "Sal'S Deli"
+}
+
+/* 19 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a112865d"),
+    "borough" : "Queens",
+    "cuisine" : "Delicatessen",
+    "name" : "Steve Chu'S Deli & Grocery"
+}
+
+/* 20 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a1128661"),
+    "borough" : "Brooklyn",
+    "cuisine" : "Hamburgers",
+    "name" : "White Castle"
+}
+
+/* 21 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a1128662"),
+    "borough" : "Queens",
+    "cuisine" : "Chinese",
+    "name" : "Ho Mei Restaurant"
+}
+
+/* 22 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a1128664"),
+    "borough" : "Brooklyn",
+    "cuisine" : "Caribbean",
+    "name" : "Shashemene Int'L Restaura"
+}
+
+/* 23 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a1128666"),
+    "borough" : "Bronx",
+    "cuisine" : "Ice Cream, Gelato, Yogurt, Ices",
+    "name" : "Carvel Ice Cream"
+}
+
+/* 24 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a1128667"),
+    "borough" : "Brooklyn",
+    "cuisine" : "Donuts",
+    "name" : "Dunkin' Donuts"
+}
+
+/* 25 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a1128668"),
+    "borough" : "Brooklyn",
+    "cuisine" : "American ",
+    "name" : "Mejlander & Mulgannon"
+}
+
+/* 26 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a112866a"),
+    "borough" : "Bronx",
+    "cuisine" : "Chinese",
+    "name" : "Happy Garden"
+}
+
+/* 27 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a112866c"),
+    "borough" : "Queens",
+    "cuisine" : "Delicatessen",
+    "name" : "Tony'S Deli"
+}
+
+/* 28 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a112866e"),
+    "borough" : "Staten Island",
+    "cuisine" : "Delicatessen",
+    "name" : "Bagels N Buns"
+}
+
+/* 29 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a112866f"),
+    "borough" : "Queens",
+    "cuisine" : "Bagels/Pretzels",
+    "name" : "Hot Bagels"
+}
+
+/* 30 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a1128670"),
+    "borough" : "Queens",
+    "cuisine" : "American ",
+    "name" : "Snack Time Grill"
+}
+
+/* 31 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a1128674"),
+    "borough" : "Brooklyn",
+    "cuisine" : "American ",
+    "name" : "Sonny'S Heros"
+}
+
+/* 32 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a1128675"),
+    "borough" : "Staten Island",
+    "cuisine" : "Ice Cream, Gelato, Yogurt, Ices",
+    "name" : "Carvel Ice Cream"
+}
+
+/* 33 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a1128676"),
+    "borough" : "Brooklyn",
+    "cuisine" : "Chinese",
+    "name" : "Golden Pavillion"
+}
+
+/* 34 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a1128679"),
+    "borough" : "Brooklyn",
+    "cuisine" : "Jewish/Kosher",
+    "name" : "Kosher Bagel Hole"
+}
+
+/* 35 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a112867a"),
+    "borough" : "Queens",
+    "cuisine" : "American ",
+    "name" : "Terminal Cafe/Yankee Clipper"
+}
+
+/* 36 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a112867b"),
+    "borough" : "Staten Island",
+    "cuisine" : "Delicatessen",
+    "name" : "Plaza Bagels & Deli"
+}
+
+/* 37 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a112867c"),
+    "borough" : "Bronx",
+    "cuisine" : "Chinese",
+    "name" : "Happy Garden"
+}
+
+/* 38 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a112867d"),
+    "borough" : "Staten Island",
+    "cuisine" : "Delicatessen",
+    "name" : "B & M Hot Bagel & Grocery"
+}
+
+/* 39 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a112867f"),
+    "borough" : "Brooklyn",
+    "cuisine" : "Italian",
+    "name" : "Philadelhia Grille Express"
+}
+
+/* 40 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a1128680"),
+    "borough" : "Brooklyn",
+    "cuisine" : "Steak",
+    "name" : "Peter Luger Steakhouse"
+}
+
+/* 41 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a1128684"),
+    "borough" : "Bronx",
+    "cuisine" : "American ",
+    "name" : "Manhem Club"
+}
+
+/* 42 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a1128687"),
+    "borough" : "Brooklyn",
+    "cuisine" : "Polish",
+    "name" : "Polish National Home"
+}
+
+/* 43 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a112868a"),
+    "borough" : "Queens",
+    "cuisine" : "German",
+    "name" : "Gottscheer Hall"
+}
+
+/* 44 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a112868d"),
+    "borough" : "Queens",
+    "cuisine" : "Jewish/Kosher",
+    "name" : "Ben-Best Deli & Restaurant"
+}
+
+/* 45 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a1128691"),
+    "borough" : "Brooklyn",
+    "cuisine" : "American ",
+    "name" : "Junior'S"
+}
+
+/* 46 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a1128692"),
+    "borough" : "Staten Island",
+    "cuisine" : "American ",
+    "name" : "Great Kills Yacht Club"
+}
+
+/* 47 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a1128694"),
+    "borough" : "Brooklyn",
+    "cuisine" : "American ",
+    "name" : "Towne Cafe"
+}
+
+/* 48 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a1128697"),
+    "borough" : "Queens",
+    "cuisine" : "Pizza/Italian",
+    "name" : "New Park Pizzeria & Restaurant"
+}
+
+/* 49 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a1128698"),
+    "borough" : "Queens",
+    "cuisine" : "American ",
+    "name" : "Douglaston Club"
+}
+
+/* 50 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a112869a"),
+    "borough" : "Brooklyn",
+    "cuisine" : "American ",
+    "name" : "Melody Lanes"
+}

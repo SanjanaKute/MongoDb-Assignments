@@ -1,0 +1,452 @@
+db.getCollection('zip_codes').aggregate([{$group:{_id:{state:"$state",city:"$city"},totalpop:{$sum:"$pop"}}}])
+
+
+/* 1 */
+{
+    "_id" : {
+        "state" : "OH",
+        "city" : "UHRICHSVILLE"
+    },
+    "totalpop" : 6925
+}
+
+/* 2 */
+{
+    "_id" : {
+        "state" : "CT",
+        "city" : "NORTHFIELD"
+    },
+    "totalpop" : 442
+}
+
+/* 3 */
+{
+    "_id" : {
+        "state" : "AL",
+        "city" : "EMPIRE"
+    },
+    "totalpop" : 2429
+}
+
+/* 4 */
+{
+    "_id" : {
+        "state" : "SD",
+        "city" : "GROTON"
+    },
+    "totalpop" : 1814
+}
+
+/* 5 */
+{
+    "_id" : {
+        "state" : "DE",
+        "city" : "GREENVILLE"
+    },
+    "totalpop" : 7176
+}
+
+/* 6 */
+{
+    "_id" : {
+        "state" : "ND",
+        "city" : "NORWICH"
+    },
+    "totalpop" : 167
+}
+
+/* 7 */
+{
+    "_id" : {
+        "state" : "MT",
+        "city" : "WESTBY"
+    },
+    "totalpop" : 515
+}
+
+/* 8 */
+{
+    "_id" : {
+        "state" : "PA",
+        "city" : "LAKE COMO"
+    },
+    "totalpop" : 415
+}
+
+/* 9 */
+{
+    "_id" : {
+        "state" : "PA",
+        "city" : "MEADVILLE"
+    },
+    "totalpop" : 31290
+}
+
+/* 10 */
+{
+    "_id" : {
+        "state" : "MT",
+        "city" : "CUSTER"
+    },
+    "totalpop" : 304
+}
+
+/* 11 */
+{
+    "_id" : {
+        "state" : "OK",
+        "city" : "SHADY POINT"
+    },
+    "totalpop" : 937
+}
+
+/* 12 */
+{
+    "_id" : {
+        "state" : "NY",
+        "city" : "ELLENBURG CENTER"
+    },
+    "totalpop" : 1494
+}
+
+/* 13 */
+{
+    "_id" : {
+        "state" : "NV",
+        "city" : "LUNING"
+    },
+    "totalpop" : 501
+}
+
+/* 14 */
+{
+    "_id" : {
+        "state" : "WV",
+        "city" : "COSTA"
+    },
+    "totalpop" : 134
+}
+
+/* 15 */
+{
+    "_id" : {
+        "state" : "MI",
+        "city" : "DELTON"
+    },
+    "totalpop" : 7306
+}
+
+/* 16 */
+{
+    "_id" : {
+        "state" : "NE",
+        "city" : "TEKAMAH"
+    },
+    "totalpop" : 2881
+}
+
+/* 17 */
+{
+    "_id" : {
+        "state" : "WA",
+        "city" : "WAHKIACUS"
+    },
+    "totalpop" : 442
+}
+
+/* 18 */
+{
+    "_id" : {
+        "state" : "NJ",
+        "city" : "MONTVALE"
+    },
+    "totalpop" : 6935
+}
+
+/* 19 */
+{
+    "_id" : {
+        "state" : "MS",
+        "city" : "ASKEW"
+    },
+    "totalpop" : 4693
+}
+
+/* 20 */
+{
+    "_id" : {
+        "state" : "VA",
+        "city" : "GRETNA"
+    },
+    "totalpop" : 8304
+}
+
+/* 21 */
+{
+    "_id" : {
+        "state" : "LA",
+        "city" : "ERATH"
+    },
+    "totalpop" : 7280
+}
+
+/* 22 */
+{
+    "_id" : {
+        "state" : "OH",
+        "city" : "PARKDALE"
+    },
+    "totalpop" : 27517
+}
+
+/* 23 */
+{
+    "_id" : {
+        "state" : "MT",
+        "city" : "PLEVNA"
+    },
+    "totalpop" : 433
+}
+
+/* 24 */
+{
+    "_id" : {
+        "state" : "ND",
+        "city" : "WESTHOPE"
+    },
+    "totalpop" : 855
+}
+
+/* 25 */
+{
+    "_id" : {
+        "state" : "CO",
+        "city" : "LITTLETON"
+    },
+    "totalpop" : 87954
+}
+
+/* 26 */
+{
+    "_id" : {
+        "state" : "PA",
+        "city" : "WYSOX"
+    },
+    "totalpop" : 2121
+}
+
+/* 27 */
+{
+    "_id" : {
+        "state" : "CA",
+        "city" : "POINT MUGU NAWC"
+    },
+    "totalpop" : 1707
+}
+
+/* 28 */
+{
+    "_id" : {
+        "state" : "AZ",
+        "city" : "NOGALES"
+    },
+    "totalpop" : 25506
+}
+
+/* 29 */
+{
+    "_id" : {
+        "state" : "PA",
+        "city" : "WEATHERLY"
+    },
+    "totalpop" : 4295
+}
+
+/* 30 */
+{
+    "_id" : {
+        "state" : "PA",
+        "city" : "GARRETT"
+    },
+    "totalpop" : 520
+}
+
+/* 31 */
+{
+    "_id" : {
+        "state" : "PA",
+        "city" : "BARNESBORO"
+    },
+    "totalpop" : 3878
+}
+
+/* 32 */
+{
+    "_id" : {
+        "state" : "KY",
+        "city" : "CROWN"
+    },
+    "totalpop" : 295
+}
+
+/* 33 */
+{
+    "_id" : {
+        "state" : "IN",
+        "city" : "WAKARUSA"
+    },
+    "totalpop" : 2776
+}
+
+/* 34 */
+{
+    "_id" : {
+        "state" : "ND",
+        "city" : "OBERON"
+    },
+    "totalpop" : 556
+}
+
+/* 35 */
+{
+    "_id" : {
+        "state" : "SC",
+        "city" : "SWANSEA"
+    },
+    "totalpop" : 3822
+}
+
+/* 36 */
+{
+    "_id" : {
+        "state" : "AL",
+        "city" : "MONROEVILLE"
+    },
+    "totalpop" : 10492
+}
+
+/* 37 */
+{
+    "_id" : {
+        "state" : "KS",
+        "city" : "ARGONIA"
+    },
+    "totalpop" : 949
+}
+
+/* 38 */
+{
+    "_id" : {
+        "state" : "NY",
+        "city" : "NIVERVILLE"
+    },
+    "totalpop" : 300
+}
+
+/* 39 */
+{
+    "_id" : {
+        "state" : "GA",
+        "city" : "FORT VALLEY"
+    },
+    "totalpop" : 14027
+}
+
+/* 40 */
+{
+    "_id" : {
+        "state" : "WV",
+        "city" : "WAYNE"
+    },
+    "totalpop" : 4992
+}
+
+/* 41 */
+{
+    "_id" : {
+        "state" : "IL",
+        "city" : "LUDLOW"
+    },
+    "totalpop" : 832
+}
+
+/* 42 */
+{
+    "_id" : {
+        "state" : "MO",
+        "city" : "BRADLEYVILLE"
+    },
+    "totalpop" : 428
+}
+
+/* 43 */
+{
+    "_id" : {
+        "state" : "HI",
+        "city" : "MAKAWAO"
+    },
+    "totalpop" : 13389
+}
+
+/* 44 */
+{
+    "_id" : {
+        "state" : "CT",
+        "city" : "RIDGEFIELD"
+    },
+    "totalpop" : 21691
+}
+
+/* 45 */
+{
+    "_id" : {
+        "state" : "IA",
+        "city" : "LITTLE SIOUX"
+    },
+    "totalpop" : 402
+}
+
+/* 46 */
+{
+    "_id" : {
+        "state" : "GA",
+        "city" : "CUTHBERT"
+    },
+    "totalpop" : 5708
+}
+
+/* 47 */
+{
+    "_id" : {
+        "state" : "NY",
+        "city" : "WURTSBORO"
+    },
+    "totalpop" : 4589
+}
+
+/* 48 */
+{
+    "_id" : {
+        "state" : "AL",
+        "city" : "FOLEY"
+    },
+    "totalpop" : 8520
+}
+
+/* 49 */
+{
+    "_id" : {
+        "state" : "IL",
+        "city" : "WAVERLY"
+    },
+    "totalpop" : 1968
+}
+
+/* 50 */
+{
+    "_id" : {
+        "state" : "NC",
+        "city" : "GASTONIA"
+    },
+    "totalpop" : 86872
+}

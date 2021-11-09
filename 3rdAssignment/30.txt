@@ -1,0 +1,1672 @@
+db.getCollection('addresses').find({"grades.score":{$mod:[7,0]}},{"restaurant_id":1,"name":1,"grades":1});
+
+
+/* 1 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a1128647"),
+    "grades" : [ 
+        {
+            "date" : ISODate("2014-03-03T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 2
+        }, 
+        {
+            "date" : ISODate("2013-09-11T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 6
+        }, 
+        {
+            "date" : ISODate("2013-01-24T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 10
+        }, 
+        {
+            "date" : ISODate("2011-11-23T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 9
+        }, 
+        {
+            "date" : ISODate("2011-03-10T00:00:00.000Z"),
+            "grade" : "B",
+            "score" : 14
+        }
+    ],
+    "name" : "Morris Park Bake Shop",
+    "restaurant_id" : "30075445"
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a112864a"),
+    "grades" : [ 
+        {
+            "date" : ISODate("2014-06-10T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 5
+        }, 
+        {
+            "date" : ISODate("2013-06-05T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 7
+        }, 
+        {
+            "date" : ISODate("2012-04-13T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 12
+        }, 
+        {
+            "date" : ISODate("2011-10-12T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 12
+        }
+    ],
+    "name" : "Riviera Caterer",
+    "restaurant_id" : "40356018"
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a112864c"),
+    "grades" : [ 
+        {
+            "date" : ISODate("2014-11-15T00:00:00.000Z"),
+            "grade" : "Z",
+            "score" : 38
+        }, 
+        {
+            "date" : ISODate("2014-05-02T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 10
+        }, 
+        {
+            "date" : ISODate("2013-03-02T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 7
+        }, 
+        {
+            "date" : ISODate("2012-02-10T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 13
+        }
+    ],
+    "name" : "Brunos On The Boulevard",
+    "restaurant_id" : "40356151"
+}
+
+/* 4 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a1128653"),
+    "grades" : [ 
+        {
+            "date" : ISODate("2014-09-16T00:00:00.000Z"),
+            "grade" : "B",
+            "score" : 21
+        }, 
+        {
+            "date" : ISODate("2013-08-28T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 7
+        }, 
+        {
+            "date" : ISODate("2013-04-02T00:00:00.000Z"),
+            "grade" : "C",
+            "score" : 56
+        }, 
+        {
+            "date" : ISODate("2012-08-15T00:00:00.000Z"),
+            "grade" : "B",
+            "score" : 27
+        }, 
+        {
+            "date" : ISODate("2012-03-28T00:00:00.000Z"),
+            "grade" : "B",
+            "score" : 27
+        }
+    ],
+    "name" : "May May Kitchen",
+    "restaurant_id" : "40358429"
+}
+
+/* 5 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a1128654"),
+    "grades" : [ 
+        {
+            "date" : ISODate("2014-05-07T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 3
+        }, 
+        {
+            "date" : ISODate("2013-05-03T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 4
+        }, 
+        {
+            "date" : ISODate("2012-04-30T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 6
+        }, 
+        {
+            "date" : ISODate("2011-12-27T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 0
+        }
+    ],
+    "name" : "1 East 66Th Street Kitchen",
+    "restaurant_id" : "40359480"
+}
+
+/* 6 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a1128655"),
+    "grades" : [ 
+        {
+            "date" : ISODate("2014-11-10T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 11
+        }, 
+        {
+            "date" : ISODate("2013-10-10T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 13
+        }, 
+        {
+            "date" : ISODate("2012-10-04T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 7
+        }, 
+        {
+            "date" : ISODate("2012-05-21T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 9
+        }, 
+        {
+            "date" : ISODate("2011-12-30T00:00:00.000Z"),
+            "grade" : "B",
+            "score" : 19
+        }
+    ],
+    "name" : "Seuda Foods",
+    "restaurant_id" : "40360045"
+}
+
+/* 7 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a112865b"),
+    "grades" : [ 
+        {
+            "date" : ISODate("2014-08-16T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 12
+        }, 
+        {
+            "date" : ISODate("2013-08-27T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 9
+        }, 
+        {
+            "date" : ISODate("2012-09-20T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 7
+        }, 
+        {
+            "date" : ISODate("2011-09-29T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 10
+        }
+    ],
+    "name" : "Sal'S Deli",
+    "restaurant_id" : "40361618"
+}
+
+/* 8 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a112865d"),
+    "grades" : [ 
+        {
+            "date" : ISODate("2014-03-19T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 3
+        }, 
+        {
+            "date" : ISODate("2013-03-13T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 12
+        }, 
+        {
+            "date" : ISODate("2012-03-27T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 8
+        }, 
+        {
+            "date" : ISODate("2011-04-05T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 7
+        }
+    ],
+    "name" : "Steve Chu'S Deli & Grocery",
+    "restaurant_id" : "40361998"
+}
+
+/* 9 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a112865e"),
+    "grades" : [ 
+        {
+            "date" : ISODate("2014-09-15T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 10
+        }, 
+        {
+            "date" : ISODate("2014-03-04T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 13
+        }, 
+        {
+            "date" : ISODate("2013-07-18T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 13
+        }, 
+        {
+            "date" : ISODate("2013-01-09T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 11
+        }, 
+        {
+            "date" : ISODate("2012-04-10T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 10
+        }, 
+        {
+            "date" : ISODate("2011-11-15T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 7
+        }
+    ],
+    "name" : "Harriet'S Kitchen",
+    "restaurant_id" : "40362098"
+}
+
+/* 10 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a1128661"),
+    "grades" : [ 
+        {
+            "date" : ISODate("2014-03-18T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 8
+        }, 
+        {
+            "date" : ISODate("2013-03-18T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 8
+        }, 
+        {
+            "date" : ISODate("2012-10-10T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 7
+        }, 
+        {
+            "date" : ISODate("2011-09-22T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 2
+        }
+    ],
+    "name" : "White Castle",
+    "restaurant_id" : "40362344"
+}
+
+/* 11 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a1128662"),
+    "grades" : [ 
+        {
+            "date" : ISODate("2014-04-21T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 10
+        }, 
+        {
+            "date" : ISODate("2013-11-12T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 5
+        }, 
+        {
+            "date" : ISODate("2013-06-04T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 12
+        }, 
+        {
+            "date" : ISODate("2012-11-14T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 10
+        }, 
+        {
+            "date" : ISODate("2012-10-11T00:00:00.000Z"),
+            "grade" : "P",
+            "score" : 0
+        }, 
+        {
+            "date" : ISODate("2012-05-24T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 13
+        }, 
+        {
+            "date" : ISODate("2011-12-08T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 12
+        }, 
+        {
+            "date" : ISODate("2011-07-20T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 11
+        }
+    ],
+    "name" : "Ho Mei Restaurant",
+    "restaurant_id" : "40362432"
+}
+
+/* 12 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a1128664"),
+    "grades" : [ 
+        {
+            "date" : ISODate("2014-05-13T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 2
+        }, 
+        {
+            "date" : ISODate("2013-05-08T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 7
+        }, 
+        {
+            "date" : ISODate("2012-09-22T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 11
+        }, 
+        {
+            "date" : ISODate("2011-06-06T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 12
+        }
+    ],
+    "name" : "Shashemene Int'L Restaura",
+    "restaurant_id" : "40362869"
+}
+
+/* 13 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a1128669"),
+    "grades" : [ 
+        {
+            "date" : ISODate("2014-10-17T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 11
+        }, 
+        {
+            "date" : ISODate("2013-09-18T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 13
+        }, 
+        {
+            "date" : ISODate("2013-04-30T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 7
+        }, 
+        {
+            "date" : ISODate("2012-04-20T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 7
+        }, 
+        {
+            "date" : ISODate("2011-12-19T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 3
+        }
+    ],
+    "name" : "Olive'S",
+    "restaurant_id" : "40363151"
+}
+
+/* 14 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a112866d"),
+    "grades" : [ 
+        {
+            "date" : ISODate("2014-02-21T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 3
+        }, 
+        {
+            "date" : ISODate("2013-09-13T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 3
+        }, 
+        {
+            "date" : ISODate("2012-08-28T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 0
+        }, 
+        {
+            "date" : ISODate("2011-09-13T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 12
+        }, 
+        {
+            "date" : ISODate("2011-05-03T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 5
+        }
+    ],
+    "name" : "Lexler Deli",
+    "restaurant_id" : "40363426"
+}
+
+/* 15 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a1128670"),
+    "grades" : [ 
+        {
+            "date" : ISODate("2014-02-25T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 7
+        }, 
+        {
+            "date" : ISODate("2013-08-14T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 11
+        }, 
+        {
+            "date" : ISODate("2012-08-07T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 7
+        }, 
+        {
+            "date" : ISODate("2012-03-26T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 10
+        }, 
+        {
+            "date" : ISODate("2011-11-04T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 0
+        }, 
+        {
+            "date" : ISODate("2011-06-29T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 4
+        }
+    ],
+    "name" : "Snack Time Grill",
+    "restaurant_id" : "40363590"
+}
+
+/* 16 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a1128671"),
+    "grades" : [ 
+        {
+            "date" : ISODate("2014-06-02T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 9
+        }, 
+        {
+            "date" : ISODate("2013-12-27T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 8
+        }, 
+        {
+            "date" : ISODate("2013-03-18T00:00:00.000Z"),
+            "grade" : "B",
+            "score" : 26
+        }, 
+        {
+            "date" : ISODate("2012-02-01T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 7
+        }, 
+        {
+            "date" : ISODate("2011-07-06T00:00:00.000Z"),
+            "grade" : "B",
+            "score" : 25
+        }
+    ],
+    "name" : "Lorenzo & Maria'S",
+    "restaurant_id" : "40363630"
+}
+
+/* 17 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a1128672"),
+    "grades" : [ 
+        {
+            "date" : ISODate("2014-08-05T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 3
+        }, 
+        {
+            "date" : ISODate("2014-03-06T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 11
+        }, 
+        {
+            "date" : ISODate("2013-07-09T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 12
+        }, 
+        {
+            "date" : ISODate("2013-01-30T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 4
+        }, 
+        {
+            "date" : ISODate("2012-01-05T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 2
+        }, 
+        {
+            "date" : ISODate("2011-09-26T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 0
+        }
+    ],
+    "name" : "Domino'S Pizza",
+    "restaurant_id" : "40363644"
+}
+
+/* 18 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a1128674"),
+    "grades" : [ 
+        {
+            "date" : ISODate("2014-02-05T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 0
+        }, 
+        {
+            "date" : ISODate("2013-01-29T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 3
+        }, 
+        {
+            "date" : ISODate("2011-12-08T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 10
+        }
+    ],
+    "name" : "Sonny'S Heros",
+    "restaurant_id" : "40363744"
+}
+
+/* 19 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a112867b"),
+    "grades" : [ 
+        {
+            "date" : ISODate("2014-11-18T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 12
+        }, 
+        {
+            "date" : ISODate("2013-11-07T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 12
+        }, 
+        {
+            "date" : ISODate("2013-04-24T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 7
+        }, 
+        {
+            "date" : ISODate("2012-03-20T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 5
+        }
+    ],
+    "name" : "Plaza Bagels & Deli",
+    "restaurant_id" : "40364286"
+}
+
+/* 20 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a112867e"),
+    "grades" : [ 
+        {
+            "date" : ISODate("2015-01-06T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 12
+        }, 
+        {
+            "date" : ISODate("2014-07-15T00:00:00.000Z"),
+            "grade" : "C",
+            "score" : 48
+        }, 
+        {
+            "date" : ISODate("2013-05-02T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 13
+        }, 
+        {
+            "date" : ISODate("2012-09-24T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 8
+        }, 
+        {
+            "date" : ISODate("2012-04-19T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 7
+        }
+    ],
+    "name" : "Texas Rotisserie",
+    "restaurant_id" : "40364304"
+}
+
+/* 21 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a112867f"),
+    "grades" : [ 
+        {
+            "date" : ISODate("2014-02-25T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 12
+        }, 
+        {
+            "date" : ISODate("2013-06-27T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 7
+        }, 
+        {
+            "date" : ISODate("2012-12-03T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 10
+        }, 
+        {
+            "date" : ISODate("2011-11-09T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 12
+        }
+    ],
+    "name" : "Philadelhia Grille Express",
+    "restaurant_id" : "40364305"
+}
+
+/* 22 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a1128685"),
+    "grades" : [ 
+        {
+            "date" : ISODate("2014-09-16T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 13
+        }, 
+        {
+            "date" : ISODate("2014-02-24T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 10
+        }, 
+        {
+            "date" : ISODate("2013-05-03T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 10
+        }, 
+        {
+            "date" : ISODate("2012-08-20T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 7
+        }, 
+        {
+            "date" : ISODate("2012-02-13T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 9
+        }
+    ],
+    "name" : "Isle Of Capri Resturant",
+    "restaurant_id" : "40364373"
+}
+
+/* 23 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a1128688"),
+    "grades" : [ 
+        {
+            "date" : ISODate("2014-05-02T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 11
+        }, 
+        {
+            "date" : ISODate("2013-05-20T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 11
+        }, 
+        {
+            "date" : ISODate("2012-05-24T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 7
+        }, 
+        {
+            "date" : ISODate("2012-01-18T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 13
+        }, 
+        {
+            "date" : ISODate("2011-10-03T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 10
+        }
+    ],
+    "name" : "Seville Restaurant",
+    "restaurant_id" : "40364439"
+}
+
+/* 24 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a1128690"),
+    "grades" : [ 
+        {
+            "date" : ISODate("2014-11-10T00:00:00.000Z"),
+            "grade" : "B",
+            "score" : 15
+        }, 
+        {
+            "date" : ISODate("2014-04-03T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 13
+        }, 
+        {
+            "date" : ISODate("2013-07-17T00:00:00.000Z"),
+            "grade" : "C",
+            "score" : 36
+        }, 
+        {
+            "date" : ISODate("2013-02-06T00:00:00.000Z"),
+            "grade" : "B",
+            "score" : 22
+        }, 
+        {
+            "date" : ISODate("2012-07-16T00:00:00.000Z"),
+            "grade" : "C",
+            "score" : 36
+        }, 
+        {
+            "date" : ISODate("2012-03-08T00:00:00.000Z"),
+            "grade" : "C",
+            "score" : 7
+        }
+    ],
+    "name" : "Tout Va Bien",
+    "restaurant_id" : "40364576"
+}
+
+/* 25 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a1128691"),
+    "grades" : [ 
+        {
+            "date" : ISODate("2014-11-14T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 11
+        }, 
+        {
+            "date" : ISODate("2014-03-10T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 7
+        }, 
+        {
+            "date" : ISODate("2013-01-10T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 3
+        }, 
+        {
+            "date" : ISODate("2012-09-04T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 7
+        }
+    ],
+    "name" : "Junior'S",
+    "restaurant_id" : "40364581"
+}
+
+/* 26 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a1128694"),
+    "grades" : [ 
+        {
+            "date" : ISODate("2014-05-14T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 11
+        }, 
+        {
+            "date" : ISODate("2013-04-27T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 9
+        }, 
+        {
+            "date" : ISODate("2012-11-23T00:00:00.000Z"),
+            "grade" : "B",
+            "score" : 27
+        }, 
+        {
+            "date" : ISODate("2012-03-14T00:00:00.000Z"),
+            "grade" : "B",
+            "score" : 17
+        }, 
+        {
+            "date" : ISODate("2011-07-14T00:00:00.000Z"),
+            "grade" : "B",
+            "score" : 21
+        }
+    ],
+    "name" : "Towne Cafe",
+    "restaurant_id" : "40364681"
+}
+
+/* 27 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a112869c"),
+    "grades" : [ 
+        {
+            "date" : ISODate("2014-12-18T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 7
+        }, 
+        {
+            "date" : ISODate("2014-05-01T00:00:00.000Z"),
+            "grade" : "B",
+            "score" : 17
+        }, 
+        {
+            "date" : ISODate("2013-03-14T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 12
+        }, 
+        {
+            "date" : ISODate("2012-09-20T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 9
+        }, 
+        {
+            "date" : ISODate("2012-02-08T00:00:00.000Z"),
+            "grade" : "B",
+            "score" : 19
+        }
+    ],
+    "name" : "The New Starling Athletic Club Of The Bronx",
+    "restaurant_id" : "40364956"
+}
+
+/* 28 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a112869d"),
+    "grades" : [ 
+        {
+            "date" : ISODate("2014-07-28T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 2
+        }, 
+        {
+            "date" : ISODate("2013-07-25T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 7
+        }, 
+        {
+            "date" : ISODate("2013-02-05T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 2
+        }, 
+        {
+            "date" : ISODate("2012-05-29T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 6
+        }, 
+        {
+            "date" : ISODate("2011-12-23T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 5
+        }
+    ],
+    "name" : "White Horse Tavern",
+    "restaurant_id" : "40364958"
+}
+
+/* 29 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a11286a0"),
+    "grades" : [ 
+        {
+            "date" : ISODate("2014-12-10T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 2
+        }, 
+        {
+            "date" : ISODate("2014-06-25T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 9
+        }, 
+        {
+            "date" : ISODate("2013-10-23T00:00:00.000Z"),
+            "grade" : "C",
+            "score" : 28
+        }, 
+        {
+            "date" : ISODate("2013-03-21T00:00:00.000Z"),
+            "grade" : "C",
+            "score" : 29
+        }, 
+        {
+            "date" : ISODate("2012-06-15T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 10
+        }
+    ],
+    "name" : "Shell Lanes",
+    "restaurant_id" : "40365043"
+}
+
+/* 30 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a11286a6"),
+    "grades" : [ 
+        {
+            "date" : ISODate("2014-02-28T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 2
+        }, 
+        {
+            "date" : ISODate("2013-08-30T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 7
+        }, 
+        {
+            "date" : ISODate("2012-08-27T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 7
+        }, 
+        {
+            "date" : ISODate("2011-09-14T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 9
+        }
+    ],
+    "name" : "Dorrian'S Red Hand Restaurant",
+    "restaurant_id" : "40365239"
+}
+
+/* 31 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a11286ad"),
+    "grades" : [ 
+        {
+            "date" : ISODate("2015-01-15T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 7
+        }, 
+        {
+            "date" : ISODate("2014-07-07T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 9
+        }, 
+        {
+            "date" : ISODate("2014-01-14T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 13
+        }, 
+        {
+            "date" : ISODate("2013-07-19T00:00:00.000Z"),
+            "grade" : "C",
+            "score" : 29
+        }, 
+        {
+            "date" : ISODate("2013-02-05T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 12
+        }
+    ],
+    "name" : "The Princeton Club",
+    "restaurant_id" : "40365361"
+}
+
+/* 32 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a11286ae"),
+    "grades" : [ 
+        {
+            "date" : ISODate("2014-03-31T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 13
+        }, 
+        {
+            "date" : ISODate("2013-10-08T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 12
+        }, 
+        {
+            "date" : ISODate("2013-03-29T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 12
+        }, 
+        {
+            "date" : ISODate("2012-09-05T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 7
+        }, 
+        {
+            "date" : ISODate("2012-03-05T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 12
+        }
+    ],
+    "name" : "Arturo'S",
+    "restaurant_id" : "40365387"
+}
+
+/* 33 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a11286af"),
+    "grades" : [ 
+        {
+            "date" : ISODate("2014-07-14T00:00:00.000Z"),
+            "grade" : "B",
+            "score" : 14
+        }, 
+        {
+            "date" : ISODate("2013-12-02T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 12
+        }, 
+        {
+            "date" : ISODate("2013-04-08T00:00:00.000Z"),
+            "grade" : "B",
+            "score" : 22
+        }, 
+        {
+            "date" : ISODate("2012-09-17T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 12
+        }, 
+        {
+            "date" : ISODate("2012-04-03T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 12
+        }
+    ],
+    "name" : "Le Perigord",
+    "restaurant_id" : "40365414"
+}
+
+/* 34 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a11286b1"),
+    "grades" : [ 
+        {
+            "date" : ISODate("2014-11-20T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 5
+        }, 
+        {
+            "date" : ISODate("2014-01-13T00:00:00.000Z"),
+            "grade" : "B",
+            "score" : 14
+        }, 
+        {
+            "date" : ISODate("2013-04-25T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 10
+        }, 
+        {
+            "date" : ISODate("2012-10-09T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 4
+        }, 
+        {
+            "date" : ISODate("2012-05-02T00:00:00.000Z"),
+            "grade" : "B",
+            "score" : 22
+        }
+    ],
+    "name" : "Joe & Pat'S Pizzeria",
+    "restaurant_id" : "40365454"
+}
+
+/* 35 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a11286b7"),
+    "grades" : [ 
+        {
+            "date" : ISODate("2014-08-18T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 8
+        }, 
+        {
+            "date" : ISODate("2014-01-08T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 10
+        }, 
+        {
+            "date" : ISODate("2013-05-20T00:00:00.000Z"),
+            "grade" : "B",
+            "score" : 21
+        }, 
+        {
+            "date" : ISODate("2012-09-20T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 13
+        }, 
+        {
+            "date" : ISODate("2011-09-22T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 11
+        }
+    ],
+    "name" : "Reben Luncheonette",
+    "restaurant_id" : "40365546"
+}
+
+/* 36 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a11286b9"),
+    "grades" : [ 
+        {
+            "date" : ISODate("2014-10-22T00:00:00.000Z"),
+            "grade" : "B",
+            "score" : 14
+        }, 
+        {
+            "date" : ISODate("2014-04-09T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 13
+        }, 
+        {
+            "date" : ISODate("2013-07-13T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 10
+        }, 
+        {
+            "date" : ISODate("2013-01-02T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 13
+        }, 
+        {
+            "date" : ISODate("2012-12-13T00:00:00.000Z"),
+            "grade" : "P",
+            "score" : 2
+        }, 
+        {
+            "date" : ISODate("2012-06-19T00:00:00.000Z"),
+            "grade" : "C",
+            "score" : 36
+        }
+    ],
+    "name" : "King Yum Restaurant",
+    "restaurant_id" : "40365592"
+}
+
+/* 37 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a11286bc"),
+    "grades" : [ 
+        {
+            "date" : ISODate("2015-01-08T00:00:00.000Z"),
+            "grade" : "Z",
+            "score" : 35
+        }, 
+        {
+            "date" : ISODate("2014-06-02T00:00:00.000Z"),
+            "grade" : "B",
+            "score" : 19
+        }, 
+        {
+            "date" : ISODate("2013-11-25T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 12
+        }, 
+        {
+            "date" : ISODate("2013-06-24T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 9
+        }, 
+        {
+            "date" : ISODate("2012-12-04T00:00:00.000Z"),
+            "grade" : "B",
+            "score" : 24
+        }, 
+        {
+            "date" : ISODate("2012-06-14T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 12
+        }, 
+        {
+            "date" : ISODate("2012-02-24T00:00:00.000Z"),
+            "grade" : "B",
+            "score" : 21
+        }
+    ],
+    "name" : "La Parisienne Diner",
+    "restaurant_id" : "40365633"
+}
+
+/* 38 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a11286bd"),
+    "grades" : [ 
+        {
+            "date" : ISODate("2014-09-10T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 7
+        }, 
+        {
+            "date" : ISODate("2013-09-25T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 6
+        }, 
+        {
+            "date" : ISODate("2012-09-11T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 5
+        }, 
+        {
+            "date" : ISODate("2012-04-19T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 8
+        }, 
+        {
+            "date" : ISODate("2011-10-26T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 13
+        }
+    ],
+    "name" : "Joe Allen Restaurant",
+    "restaurant_id" : "40365644"
+}
+
+/* 39 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a11286c0"),
+    "grades" : [ 
+        {
+            "date" : ISODate("2014-05-13T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 12
+        }, 
+        {
+            "date" : ISODate("2013-11-12T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 12
+        }, 
+        {
+            "date" : ISODate("2013-04-27T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 9
+        }, 
+        {
+            "date" : ISODate("2011-12-07T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 7
+        }
+    ],
+    "name" : "Barbetta Restaurant",
+    "restaurant_id" : "40365726"
+}
+
+/* 40 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a11286c4"),
+    "grades" : [ 
+        {
+            "date" : ISODate("2013-12-04T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 9
+        }, 
+        {
+            "date" : ISODate("2013-05-02T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 8
+        }, 
+        {
+            "date" : ISODate("2012-03-15T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 11
+        }, 
+        {
+            "date" : ISODate("2011-07-12T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 9
+        }, 
+        {
+            "date" : ISODate("2011-02-16T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 7
+        }
+    ],
+    "name" : "Lavelle'S Admiral'S Club",
+    "restaurant_id" : "40365844"
+}
+
+/* 41 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a11286c9"),
+    "grades" : [ 
+        {
+            "date" : ISODate("2014-01-16T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 4
+        }, 
+        {
+            "date" : ISODate("2013-06-20T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 11
+        }, 
+        {
+            "date" : ISODate("2012-10-04T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 13
+        }, 
+        {
+            "date" : ISODate("2012-01-10T00:00:00.000Z"),
+            "grade" : "B",
+            "score" : 20
+        }, 
+        {
+            "date" : ISODate("2011-06-23T00:00:00.000Z"),
+            "grade" : "B",
+            "score" : 21
+        }
+    ],
+    "name" : "Nancy'S Fire Side",
+    "restaurant_id" : "40365938"
+}
+
+/* 42 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a11286ce"),
+    "grades" : [ 
+        {
+            "date" : ISODate("2014-01-29T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 11
+        }, 
+        {
+            "date" : ISODate("2013-06-26T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 12
+        }, 
+        {
+            "date" : ISODate("2012-06-27T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 7
+        }, 
+        {
+            "date" : ISODate("2012-01-31T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 13
+        }, 
+        {
+            "date" : ISODate("2011-02-08T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 8
+        }
+    ],
+    "name" : "Healy'S Pub",
+    "restaurant_id" : "40366054"
+}
+
+/* 43 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a11286d5"),
+    "grades" : [ 
+        {
+            "date" : ISODate("2014-07-29T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 11
+        }, 
+        {
+            "date" : ISODate("2013-08-05T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 7
+        }, 
+        {
+            "date" : ISODate("2013-03-14T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 2
+        }, 
+        {
+            "date" : ISODate("2012-07-24T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 12
+        }
+    ],
+    "name" : "Killarney Rose",
+    "restaurant_id" : "40366222"
+}
+
+/* 44 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a11286d6"),
+    "grades" : [ 
+        {
+            "date" : ISODate("2014-06-20T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 10
+        }, 
+        {
+            "date" : ISODate("2013-06-07T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 13
+        }, 
+        {
+            "date" : ISODate("2012-06-28T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 13
+        }, 
+        {
+            "date" : ISODate("2012-01-13T00:00:00.000Z"),
+            "grade" : "C",
+            "score" : 28
+        }
+    ],
+    "name" : "Don Peppe",
+    "restaurant_id" : "40366230"
+}
+
+/* 45 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a11286d7"),
+    "grades" : [ 
+        {
+            "date" : ISODate("2014-12-02T00:00:00.000Z"),
+            "grade" : "Z",
+            "score" : 18
+        }, 
+        {
+            "date" : ISODate("2014-02-12T00:00:00.000Z"),
+            "grade" : "B",
+            "score" : 21
+        }, 
+        {
+            "date" : ISODate("2013-04-13T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 7
+        }, 
+        {
+            "date" : ISODate("2012-06-26T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 11
+        }, 
+        {
+            "date" : ISODate("2011-12-17T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 8
+        }
+    ],
+    "name" : "Blarney Castle",
+    "restaurant_id" : "40366356"
+}
+
+/* 46 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a11286d8"),
+    "grades" : [ 
+        {
+            "date" : ISODate("2014-07-02T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 12
+        }, 
+        {
+            "date" : ISODate("2013-07-10T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 11
+        }, 
+        {
+            "date" : ISODate("2013-02-13T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 7
+        }, 
+        {
+            "date" : ISODate("2012-08-16T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 12
+        }, 
+        {
+            "date" : ISODate("2012-03-29T00:00:00.000Z"),
+            "grade" : "B",
+            "score" : 24
+        }
+    ],
+    "name" : "Three Star Restaurant",
+    "restaurant_id" : "40366361"
+}
+
+/* 47 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a11286dd"),
+    "grades" : [ 
+        {
+            "date" : ISODate("2014-11-17T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 5
+        }, 
+        {
+            "date" : ISODate("2013-12-21T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 10
+        }, 
+        {
+            "date" : ISODate("2013-06-25T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 7
+        }, 
+        {
+            "date" : ISODate("2012-06-18T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 13
+        }, 
+        {
+            "date" : ISODate("2012-03-01T00:00:00.000Z"),
+            "grade" : "B",
+            "score" : 19
+        }
+    ],
+    "name" : "Roll-N-Roaster",
+    "restaurant_id" : "40366471"
+}
+
+/* 48 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a11286de"),
+    "grades" : [ 
+        {
+            "date" : ISODate("2014-07-15T00:00:00.000Z"),
+            "grade" : "B",
+            "score" : 15
+        }, 
+        {
+            "date" : ISODate("2013-06-26T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 12
+        }, 
+        {
+            "date" : ISODate("2012-06-27T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 7
+        }, 
+        {
+            "date" : ISODate("2012-01-30T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 9
+        }
+    ],
+    "name" : "Tio Pepe",
+    "restaurant_id" : "40366473"
+}
+
+/* 49 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a11286df"),
+    "grades" : [ 
+        {
+            "date" : ISODate("2014-10-30T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 7
+        }, 
+        {
+            "date" : ISODate("2013-10-16T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 11
+        }, 
+        {
+            "date" : ISODate("2013-06-04T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 11
+        }, 
+        {
+            "date" : ISODate("2012-06-04T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 12
+        }, 
+        {
+            "date" : ISODate("2011-12-22T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 5
+        }
+    ],
+    "name" : "Brennan & Carr",
+    "restaurant_id" : "40366487"
+}
+
+/* 50 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a11286e0"),
+    "grades" : [ 
+        {
+            "date" : ISODate("2014-02-26T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 5
+        }, 
+        {
+            "date" : ISODate("2013-10-09T00:00:00.000Z"),
+            "grade" : "B",
+            "score" : 19
+        }, 
+        {
+            "date" : ISODate("2013-05-15T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 9
+        }, 
+        {
+            "date" : ISODate("2012-11-20T00:00:00.000Z"),
+            "grade" : "B",
+            "score" : 18
+        }, 
+        {
+            "date" : ISODate("2011-10-17T00:00:00.000Z"),
+            "grade" : "A",
+            "score" : 10
+        }, 
+        {
+            "date" : ISODate("2011-06-22T00:00:00.000Z"),
+            "grade" : "C",
+            "score" : 35
+        }
+    ],
+    "name" : "The Punch Bowl",
+    "restaurant_id" : "40366497"
+}

@@ -1,0 +1,296 @@
+db.getCollection('addresses').find({name:{$regex:"mon.*"}},{"name":1,"borough":1,"address.coord":1,"cuisine":1});
+
+
+/* 1 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a11286db"),
+    "address" : {
+        "coord" : [ 
+            -73.983061, 
+            40.7441419
+        ]
+    },
+    "borough" : "Manhattan",
+    "cuisine" : "American ",
+    "name" : "Desmond'S Tavern"
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a11286e4"),
+    "address" : {
+        "coord" : [ 
+            -73.8221418, 
+            40.7272376
+        ]
+    },
+    "borough" : "Queens",
+    "cuisine" : "Jewish/Kosher",
+    "name" : "Shimons Kosher Pizza"
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a11286f0"),
+    "address" : {
+        "coord" : [ 
+            -74.104656, 
+            40.58834
+        ]
+    },
+    "borough" : "Staten Island",
+    "cuisine" : "American ",
+    "name" : "Richmond County Country Club"
+}
+
+/* 4 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a112871b"),
+    "address" : {
+        "coord" : [ 
+            -73.9812843, 
+            40.5947365
+        ]
+    },
+    "borough" : "Brooklyn",
+    "cuisine" : "Pizza/Italian",
+    "name" : "Lb Spumoni Gardens"
+}
+
+/* 5 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a112876d"),
+    "address" : {
+        "coord" : [ 
+            -73.951199, 
+            40.7166026
+        ]
+    },
+    "borough" : "Brooklyn",
+    "cuisine" : "Italian",
+    "name" : "Bamonte'S Restaurant"
+}
+
+/* 6 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a11287a4"),
+    "address" : {
+        "coord" : [ 
+            -73.924072, 
+            40.761089
+        ]
+    },
+    "borough" : "Queens",
+    "cuisine" : "Greek",
+    "name" : "Omonia Cafe"
+}
+
+/* 7 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a1128827"),
+    "address" : {
+        "coord" : [ 
+            -73.9901605, 
+            40.7526176
+        ]
+    },
+    "borough" : "Manhattan",
+    "cuisine" : "American ",
+    "name" : "Delmonico'S Kitchen"
+}
+
+/* 8 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a11289c8"),
+    "address" : {
+        "coord" : [ 
+            -73.9707505, 
+            40.7635651
+        ]
+    },
+    "borough" : "Manhattan",
+    "cuisine" : "Delicatessen",
+    "name" : "Delmonico Gourmet"
+}
+
+/* 9 */
+{
+    "_id" : ObjectId("6180c75e4fa845b6a1128a35"),
+    "address" : {
+        "coord" : [ 
+            -73.9760637, 
+            40.7508686
+        ]
+    },
+    "borough" : "Manhattan",
+    "cuisine" : "American ",
+    "name" : "Delmonico Gourmet"
+}
+
+/* 10 */
+{
+    "_id" : ObjectId("6180c75e4fa845b6a1128b8c"),
+    "address" : {
+        "coord" : [ 
+            -73.9719821, 
+            40.764464
+        ]
+    },
+    "borough" : "Manhattan",
+    "cuisine" : "American ",
+    "name" : "Harmonie Club"
+}
+
+/* 11 */
+{
+    "_id" : ObjectId("6180c75e4fa845b6a1128c50"),
+    "address" : {
+        "coord" : [ 
+            -73.7957199, 
+            40.7095637
+        ]
+    },
+    "borough" : "Queens",
+    "cuisine" : "Bakery",
+    "name" : "Ramona'S Bakery"
+}
+
+/* 12 */
+{
+    "_id" : ObjectId("6180c75e4fa845b6a1128ca9"),
+    "address" : {
+        "coord" : [ 
+            -73.9846348, 
+            40.7630755
+        ]
+    },
+    "borough" : "Manhattan",
+    "cuisine" : "American ",
+    "name" : "Neil Simon Theatre"
+}
+
+/* 13 */
+{
+    "_id" : ObjectId("6180c75e4fa845b6a1128d0b"),
+    "address" : {
+        "coord" : [ 
+            -74.028486, 
+            40.630438
+        ]
+    },
+    "borough" : "Brooklyn",
+    "cuisine" : "Mediterranean",
+    "name" : "Omonia Cafe"
+}
+
+/* 14 */
+{
+    "_id" : ObjectId("6180c7634fa845b6a1128ebd"),
+    "address" : {
+        "coord" : [ 
+            -73.9849976, 
+            40.7276766
+        ]
+    },
+    "borough" : "Manhattan",
+    "cuisine" : "American ",
+    "name" : "Simone Bar Cafe"
+}
+
+/* 15 */
+{
+    "_id" : ObjectId("6180c7634fa845b6a11290ef"),
+    "address" : {
+        "coord" : [ 
+            -74.0103234, 
+            40.7050156
+        ]
+    },
+    "borough" : "Manhattan",
+    "cuisine" : "Italian",
+    "name" : "Delmonicos"
+}
+
+/* 16 */
+{
+    "_id" : ObjectId("6180c7664fa845b6a1129265"),
+    "address" : {
+        "coord" : [ 
+            -73.8706606, 
+            40.7342757
+        ]
+    },
+    "borough" : "Queens",
+    "cuisine" : "American ",
+    "name" : "Cinnabon World Famous Cinnamon Rolls"
+}
+
+/* 17 */
+{
+    "_id" : ObjectId("6180c7664fa845b6a1129289"),
+    "address" : {
+        "coord" : [ 
+            -73.9640299, 
+            40.807001
+        ]
+    },
+    "borough" : "Manhattan",
+    "cuisine" : "American ",
+    "name" : "Ferris Booth Commons - Alfred Lerner Hall"
+}
+
+/* 18 */
+{
+    "_id" : ObjectId("6180c7664fa845b6a11292e3"),
+    "address" : {
+        "coord" : [ 
+            -74.104656, 
+            40.58834
+        ]
+    },
+    "borough" : "Staten Island",
+    "cuisine" : "American ",
+    "name" : "Richmond County Country Club - Pool Snack Bar"
+}
+
+/* 19 */
+{
+    "_id" : ObjectId("6180c7664fa845b6a11292e4"),
+    "address" : {
+        "coord" : [ 
+            -74.1110561, 
+            40.5884772
+        ]
+    },
+    "borough" : "Staten Island",
+    "cuisine" : "American ",
+    "name" : "Richmond County Country Club(10Th Hole)"
+}
+
+/* 20 */
+{
+    "_id" : ObjectId("6180c7664fa845b6a11292e5"),
+    "address" : {
+        "coord" : [ 
+            -74.112758, 
+            40.5833299
+        ]
+    },
+    "borough" : "Staten Island",
+    "cuisine" : "American ",
+    "name" : "Richmond County Country Club"
+}
+
+/* 21 */
+{
+    "_id" : ObjectId("6180c7664fa845b6a11294f3"),
+    "address" : {
+        "coord" : [ 
+            -73.9410809, 
+            40.7036157
+        ]
+    },
+    "borough" : "Brooklyn",
+    "cuisine" : "Latin (Cuban, Dominican, Puerto Rican, South & Central American)",
+    "name" : "Ramonita'S Restaurant"
+}

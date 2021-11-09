@@ -1,0 +1,56 @@
+db.getCollection('addresses').find({name:/ces$/},{"restaurant_id":1,"name":1,"borough":1,"cuisine":1});
+
+
+/* 1 */
+{
+    "_id" : ObjectId("6180c75e4fa845b6a1128ada"),
+    "borough" : "Manhattan",
+    "cuisine" : "American ",
+    "name" : "Pieces",
+    "restaurant_id" : "40399910"
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("6180c75e4fa845b6a1128b99"),
+    "borough" : "Queens",
+    "cuisine" : "American ",
+    "name" : "S.M.R Restaurant Services",
+    "restaurant_id" : "40403857"
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("6180c75e4fa845b6a1128b9f"),
+    "borough" : "Manhattan",
+    "cuisine" : "American ",
+    "name" : "Good Shepherd Services",
+    "restaurant_id" : "40403989"
+}
+
+/* 4 */
+{
+    "_id" : ObjectId("6180c7634fa845b6a1129052"),
+    "borough" : "Queens",
+    "cuisine" : "Ice Cream, Gelato, Yogurt, Ices",
+    "name" : "The Ice Box-Ralph'S Famous Italian Ices",
+    "restaurant_id" : "40690899"
+}
+
+/* 5 */
+{
+    "_id" : ObjectId("6180c7664fa845b6a1129254"),
+    "borough" : "Brooklyn",
+    "cuisine" : "Jewish/Kosher",
+    "name" : "Alices",
+    "restaurant_id" : "40782042"
+}
+
+/* 6 */
+{
+    "_id" : ObjectId("6180c7664fa845b6a1129470"),
+    "borough" : "Manhattan",
+    "cuisine" : "American ",
+    "name" : "Re: Sources",
+    "restaurant_id" : "40876068"
+}

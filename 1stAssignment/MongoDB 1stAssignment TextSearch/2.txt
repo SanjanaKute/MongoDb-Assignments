@@ -1,0 +1,11 @@
+db.getCollection('movies').find({$text:{$search:"Gandalf"}})
+
+/* 1 */
+{
+    "_id" : ObjectId("617d703f976987041b654e12"),
+    "title" : "The Hobbit:An Desolation of Smaug",
+    "writer" : "J.R.R.Tolkein",
+    "year" : 2013,
+    "franchise" : "The Hobbit",
+    "synopsis" : "The dwarves,along with Bilbo Baggins and Gandalf the Grey, continue their quest to reclaim Erebor, their homeland, from Smaug. Bilbo Baggins is in possessionof a mysterious and magical ring."
+}

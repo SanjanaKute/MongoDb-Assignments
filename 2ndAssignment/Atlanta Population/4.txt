@@ -1,0 +1,8 @@
+db.getCollection('zip_codes').aggregate([{$match:{city:"ATLANTA"}},{$group:{_id:"$city",totalpop:{$sum:"$pop"}}}])
+
+
+/* 1 */
+{
+    "_id" : "ATLANTA",
+    "totalpop" : 630046
+}

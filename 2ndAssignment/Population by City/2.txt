@@ -1,0 +1,401 @@
+db.getCollection('zip_codes').aggregate([{$group:{_id:{city:"$city",pop:"$pop"}}},{$sort:{"_id.pop":-1}}])
+
+/* 1 */
+{
+    "_id" : {
+        "city" : "CHICAGO",
+        "pop" : 112047
+    }
+}
+
+/* 2 */
+{
+    "_id" : {
+        "city" : "BROOKLYN",
+        "pop" : 111396
+    }
+}
+
+/* 3 */
+{
+    "_id" : {
+        "city" : "NEW YORK",
+        "pop" : 106564
+    }
+}
+
+/* 4 */
+{
+    "_id" : {
+        "city" : "NEW YORK",
+        "pop" : 100027
+    }
+}
+
+/* 5 */
+{
+    "_id" : {
+        "city" : "BELL GARDENS",
+        "pop" : 99568
+    }
+}
+
+/* 6 */
+{
+    "_id" : {
+        "city" : "CHICAGO",
+        "pop" : 98612
+    }
+}
+
+/* 7 */
+{
+    "_id" : {
+        "city" : "LOS ANGELES",
+        "pop" : 96074
+    }
+}
+
+/* 8 */
+{
+    "_id" : {
+        "city" : "CHICAGO",
+        "pop" : 95971
+    }
+}
+
+/* 9 */
+{
+    "_id" : {
+        "city" : "CHICAGO",
+        "pop" : 94317
+    }
+}
+
+/* 10 */
+{
+    "_id" : {
+        "city" : "NORWALK",
+        "pop" : 94188
+    }
+}
+
+/* 11 */
+{
+    "_id" : {
+        "city" : "CHICAGO",
+        "pop" : 92005
+    }
+}
+
+/* 12 */
+{
+    "_id" : {
+        "city" : "CHICAGO",
+        "pop" : 91814
+    }
+}
+
+/* 13 */
+{
+    "_id" : {
+        "city" : "CHICAGO",
+        "pop" : 89762
+    }
+}
+
+/* 14 */
+{
+    "_id" : {
+        "city" : "CHICAGO",
+        "pop" : 88377
+    }
+}
+
+/* 15 */
+{
+    "_id" : {
+        "city" : "JACKSON HEIGHTS",
+        "pop" : 88241
+    }
+}
+
+/* 16 */
+{
+    "_id" : {
+        "city" : "ARLETA",
+        "pop" : 88114
+    }
+}
+
+/* 17 */
+{
+    "_id" : {
+        "city" : "BROOKLYN",
+        "pop" : 87079
+    }
+}
+
+/* 18 */
+{
+    "_id" : {
+        "city" : "SOUTH GATE",
+        "pop" : 87026
+    }
+}
+
+/* 19 */
+{
+    "_id" : {
+        "city" : "RIDGEWOOD",
+        "pop" : 85732
+    }
+}
+
+/* 20 */
+{
+    "_id" : {
+        "city" : "BRONX",
+        "pop" : 85710
+    }
+}
+
+/* 21 */
+{
+    "_id" : {
+        "city" : "WESTLAND",
+        "pop" : 84712
+    }
+}
+
+/* 22 */
+{
+    "_id" : {
+        "city" : "CHICAGO",
+        "pop" : 84518
+    }
+}
+
+/* 23 */
+{
+    "_id" : {
+        "city" : "NEW YORK",
+        "pop" : 84143
+    }
+}
+
+/* 24 */
+{
+    "_id" : {
+        "city" : "LOS ANGELES",
+        "pop" : 83958
+    }
+}
+
+/* 25 */
+{
+    "_id" : {
+        "city" : "CHICAGO",
+        "pop" : 83401
+    }
+}
+
+/* 26 */
+{
+    "_id" : {
+        "city" : "BROOKLYN",
+        "pop" : 83158
+    }
+}
+
+/* 27 */
+{
+    "_id" : {
+        "city" : "FONTANA",
+        "pop" : 81255
+    }
+}
+
+/* 28 */
+{
+    "_id" : {
+        "city" : "BROOKLYN",
+        "pop" : 80566
+    }
+}
+
+/* 29 */
+{
+    "_id" : {
+        "city" : "PHILADELPHIA",
+        "pop" : 80454
+    }
+}
+
+/* 30 */
+{
+    "_id" : {
+        "city" : "BROWNSVILLE",
+        "pop" : 79463
+    }
+}
+
+/* 31 */
+{
+    "_id" : {
+        "city" : "HOLLY PARK",
+        "pop" : 78511
+    }
+}
+
+/* 32 */
+{
+    "_id" : {
+        "city" : "BROOKLYN",
+        "pop" : 78338
+    }
+}
+
+/* 33 */
+{
+    "_id" : {
+        "city" : "BROOKLYN",
+        "pop" : 78322
+    }
+}
+
+/* 34 */
+{
+    "_id" : {
+        "city" : "STATEN ISLAND",
+        "pop" : 78118
+    }
+}
+
+/* 35 */
+{
+    "_id" : {
+        "city" : "CHICAGO",
+        "pop" : 78082
+    }
+}
+
+/* 36 */
+{
+    "_id" : {
+        "city" : "WESTMINSTER",
+        "pop" : 77965
+    }
+}
+
+/* 37 */
+{
+    "_id" : {
+        "city" : "BROOKLYN",
+        "pop" : 77253
+    }
+}
+
+/* 38 */
+{
+    "_id" : {
+        "city" : "SANTA ANA",
+        "pop" : 77151
+    }
+}
+
+/* 39 */
+{
+    "_id" : {
+        "city" : "INDUSTRY",
+        "pop" : 77114
+    }
+}
+
+/* 40 */
+{
+    "_id" : {
+        "city" : "BROOKLYN",
+        "pop" : 76923
+    }
+}
+
+/* 41 */
+{
+    "_id" : {
+        "city" : "CHICAGO",
+        "pop" : 76829
+    }
+}
+
+/* 42 */
+{
+    "_id" : {
+        "city" : "COAST GUARD ISLA",
+        "pop" : 76110
+    }
+}
+
+/* 43 */
+{
+    "_id" : {
+        "city" : "GWYNN OAK",
+        "pop" : 76002
+    }
+}
+
+/* 44 */
+{
+    "_id" : {
+        "city" : "WOODSIDE",
+        "pop" : 75894
+    }
+}
+
+/* 45 */
+{
+    "_id" : {
+        "city" : "CORONA",
+        "pop" : 75746
+    }
+}
+
+/* 46 */
+{
+    "_id" : {
+        "city" : "GLEN BURNIE",
+        "pop" : 75692
+    }
+}
+
+/* 47 */
+{
+    "_id" : {
+        "city" : "RIALTO",
+        "pop" : 75341
+    }
+}
+
+/* 48 */
+{
+    "_id" : {
+        "city" : "BROOKLYN",
+        "pop" : 74953
+    }
+}
+
+/* 49 */
+{
+    "_id" : {
+        "city" : "BROOKLYN",
+        "pop" : 74825
+    }
+}
+
+/* 50 */
+{
+    "_id" : {
+        "city" : "LOS ANGELES",
+        "pop" : 74751
+    }
+}

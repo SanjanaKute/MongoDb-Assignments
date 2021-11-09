@@ -1,0 +1,29 @@
+db.getCollection('zip_codes').aggregate([{$match:{state:"TX"}},{$group:{_id:{city:"$city",state:"$state"},population:{$sum:"$pop"}}},{$sort:{"_id.population":-1}},{$limit:3}])
+
+
+/* 1 */
+{
+    "_id" : {
+        "city" : "HALE CENTER",
+        "state" : "TX"
+    },
+    "population" : 3139
+}
+
+/* 2 */
+{
+    "_id" : {
+        "city" : "OLTON",
+        "state" : "TX"
+    },
+    "population" : 2747
+}
+
+/* 3 */
+{
+    "_id" : {
+        "city" : "LORAINE",
+        "state" : "TX"
+    },
+    "population" : 1300
+}

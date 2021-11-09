@@ -1,0 +1,26 @@
+db.getCollection('comments').find({username:"GoodGuyGreg"})
+
+
+/* 1 */
+{
+    "_id" : ObjectId("617e6e6ea7807afd4d9a5557"),
+    "username" : "GoodGuyGreg",
+    "comment" : "Hope you got a good deal",
+    "post" : ""
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("617e6f45a7807afd4d9a5558"),
+    "username" : "GoodGuyGreg",
+    "comment" : "Whats's mine is yours!",
+    "post" : ""
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("617e6fa7a7807afd4d9a5559"),
+    "username" : "GoodGuyGreg",
+    "comment" : "Dont't violate the licensing agreement!",
+    "post" : ""
+}

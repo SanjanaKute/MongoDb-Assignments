@@ -1,0 +1,27 @@
+db.getCollection('movies').find({actors:"Brad pitt"})
+
+
+/* 1 */
+{
+    "_id" : ObjectId("617d6d34976987041b654e0d"),
+    "title" : "Fight Club",
+    "writer" : "Chuch Palahniuko",
+    "year" : 1999,
+    "actors" : [ 
+        "Brad pitt", 
+        "Edward Norton"
+    ]
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("617d6e9a976987041b654e10"),
+    "title" : "Inglorious Basterds",
+    "writer" : "Quentin Tarantino",
+    "year" : 2009,
+    "actors" : [ 
+        "Brad pitt", 
+        "Diane Kruger", 
+        "Eli Roth"
+    ]
+}

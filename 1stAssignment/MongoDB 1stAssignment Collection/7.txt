@@ -1,0 +1,8 @@
+db.getCollection('comments').find({},{"username":"ScumbagSteve"});
+
+{
+    "_id" : ObjectId("617e7007a7807afd4d9a555b"),
+    "username" : "ScumnagSteve",
+    "comment" : "Denied your PR cause I found a hack",
+    "post" : ""
+}

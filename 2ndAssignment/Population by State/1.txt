@@ -1,0 +1,301 @@
+db.getCollection('zip_codes').aggregate([{$group:{_id:"$city",totalpop:{$sum:"$pop"}}}])
+
+/* 1 */
+{
+    "_id" : "UNION DALE",
+    "totalpop" : 1325
+}
+
+/* 2 */
+{
+    "_id" : "WELLS",
+    "totalpop" : 13603
+}
+
+/* 3 */
+{
+    "_id" : "KAILUA",
+    "totalpop" : 53403
+}
+
+/* 4 */
+{
+    "_id" : "ALTHA",
+    "totalpop" : 3280
+}
+
+/* 5 */
+{
+    "_id" : "CLE ELUM",
+    "totalpop" : 5299
+}
+
+/* 6 */
+{
+    "_id" : "ALANSON",
+    "totalpop" : 3681
+}
+
+/* 7 */
+{
+    "_id" : "WOODBURY HEIGHTS",
+    "totalpop" : 3625
+}
+
+/* 8 */
+{
+    "_id" : "RAEFORD",
+    "totalpop" : 20742
+}
+
+/* 9 */
+{
+    "_id" : "PARK RAPIDS",
+    "totalpop" : 8074
+}
+
+/* 10 */
+{
+    "_id" : "GRAY SUMMIT",
+    "totalpop" : 752
+}
+
+/* 11 */
+{
+    "_id" : "MORRISVILLE",
+    "totalpop" : 17900
+}
+
+/* 12 */
+{
+    "_id" : "CROOKSTON",
+    "totalpop" : 10205
+}
+
+/* 13 */
+{
+    "_id" : "MOUNT UPTON",
+    "totalpop" : 1462
+}
+
+/* 14 */
+{
+    "_id" : "BARTO",
+    "totalpop" : 2509
+}
+
+/* 15 */
+{
+    "_id" : "CANDLER",
+    "totalpop" : 15823
+}
+
+/* 16 */
+{
+    "_id" : "RENAULT",
+    "totalpop" : 929
+}
+
+/* 17 */
+{
+    "_id" : "CANTRIL",
+    "totalpop" : 490
+}
+
+/* 18 */
+{
+    "_id" : "LONE JACK",
+    "totalpop" : 1918
+}
+
+/* 19 */
+{
+    "_id" : "BEARVILLE",
+    "totalpop" : 1961
+}
+
+/* 20 */
+{
+    "_id" : "LEAGUE CITY",
+    "totalpop" : 41580
+}
+
+/* 21 */
+{
+    "_id" : "JENSEN BEACH",
+    "totalpop" : 13656
+}
+
+/* 22 */
+{
+    "_id" : "STUMPY POINT",
+    "totalpop" : 880
+}
+
+/* 23 */
+{
+    "_id" : "GORDON",
+    "totalpop" : 6588
+}
+
+/* 24 */
+{
+    "_id" : "ANSONIA",
+    "totalpop" : 20660
+}
+
+/* 25 */
+{
+    "_id" : "ALFRED",
+    "totalpop" : 9410
+}
+
+/* 26 */
+{
+    "_id" : "LOVES PARK",
+    "totalpop" : 47733
+}
+
+/* 27 */
+{
+    "_id" : "BAYOU LA BATRE",
+    "totalpop" : 4901
+}
+
+/* 28 */
+{
+    "_id" : "MANAWA",
+    "totalpop" : 34363
+}
+
+/* 29 */
+{
+    "_id" : "PITKIN",
+    "totalpop" : 3656
+}
+
+/* 30 */
+{
+    "_id" : "CHASSELL",
+    "totalpop" : 3096
+}
+
+/* 31 */
+{
+    "_id" : "SPEARSVILLE",
+    "totalpop" : 2830
+}
+
+/* 32 */
+{
+    "_id" : "MELBOURNE",
+    "totalpop" : 64309
+}
+
+/* 33 */
+{
+    "_id" : "IBERIA",
+    "totalpop" : 3704
+}
+
+/* 34 */
+{
+    "_id" : "NEW CONCORD",
+    "totalpop" : 5692
+}
+
+/* 35 */
+{
+    "_id" : "PERRYSVILLE",
+    "totalpop" : 4490
+}
+
+/* 36 */
+{
+    "_id" : "TOWANDA",
+    "totalpop" : 11238
+}
+
+/* 37 */
+{
+    "_id" : "GRAYSON",
+    "totalpop" : 5852
+}
+
+/* 38 */
+{
+    "_id" : "DIX HILLS",
+    "totalpop" : 62162
+}
+
+/* 39 */
+{
+    "_id" : "OAKS",
+    "totalpop" : 327
+}
+
+/* 40 */
+{
+    "_id" : "RISON",
+    "totalpop" : 7495
+}
+
+/* 41 */
+{
+    "_id" : "LOWELLVILLE",
+    "totalpop" : 3882
+}
+
+/* 42 */
+{
+    "_id" : "CARLOS",
+    "totalpop" : 2136
+}
+
+/* 43 */
+{
+    "_id" : "AGES BROOKSIDE",
+    "totalpop" : 164
+}
+
+/* 44 */
+{
+    "_id" : "SCALES MOUND",
+    "totalpop" : 909
+}
+
+/* 45 */
+{
+    "_id" : "BONNIEVILLE",
+    "totalpop" : 1627
+}
+
+/* 46 */
+{
+    "_id" : "SHASTA",
+    "totalpop" : 294
+}
+
+/* 47 */
+{
+    "_id" : "HUEY",
+    "totalpop" : 3629
+}
+
+/* 48 */
+{
+    "_id" : "DUTCH HARBOR",
+    "totalpop" : 3
+}
+
+/* 49 */
+{
+    "_id" : "HYTOP",
+    "totalpop" : 16934
+}
+
+/* 50 */
+{
+    "_id" : "WHITE CASTLE",
+    "totalpop" : 5739
+}

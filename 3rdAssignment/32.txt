@@ -1,0 +1,114 @@
+db.getCollection('addresses').find({name:{$regex:/^Mad/}},{"name":1,"borough":1,"address.coord":1,"cuisine":1});
+
+
+/* 1 */
+{
+    "_id" : ObjectId("6180c75e4fa845b6a1128b83"),
+    "address" : {
+        "coord" : [ 
+            -73.9860597, 
+            40.7431194
+        ]
+    },
+    "borough" : "Manhattan",
+    "cuisine" : "American ",
+    "name" : "Madison Square"
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("6180c75e4fa845b6a1128c51"),
+    "address" : {
+        "coord" : [ 
+            -73.983022, 
+            40.742313
+        ]
+    },
+    "borough" : "Manhattan",
+    "cuisine" : "Indian",
+    "name" : "Madras Mahal"
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("6180c7634fa845b6a1128eff"),
+    "address" : {
+        "coord" : [ 
+            -74.000002, 
+            40.72735
+        ]
+    },
+    "borough" : "Manhattan",
+    "cuisine" : "American ",
+    "name" : "Madame X"
+}
+
+/* 4 */
+{
+    "_id" : ObjectId("6180c7634fa845b6a1128faf"),
+    "address" : {
+        "coord" : [ 
+            -73.9817196, 
+            40.7499406
+        ]
+    },
+    "borough" : "Manhattan",
+    "cuisine" : "French",
+    "name" : "Madison Bistro"
+}
+
+/* 5 */
+{
+    "_id" : ObjectId("6180c7634fa845b6a1129038"),
+    "address" : {
+        "coord" : [ 
+            -73.9717845, 
+            40.6897199
+        ]
+    },
+    "borough" : "Brooklyn",
+    "cuisine" : "African",
+    "name" : "Madiba"
+}
+
+/* 6 */
+{
+    "_id" : ObjectId("6180c7664fa845b6a112933d"),
+    "address" : {
+        "coord" : [ 
+            -73.9040753, 
+            40.9069011
+        ]
+    },
+    "borough" : "Bronx",
+    "cuisine" : "Italian",
+    "name" : "Madison'S"
+}
+
+/* 7 */
+{
+    "_id" : ObjectId("6180c7664fa845b6a11293bb"),
+    "address" : {
+        "coord" : [ 
+            -73.9886598, 
+            40.7565811
+        ]
+    },
+    "borough" : "Manhattan",
+    "cuisine" : "Hotdogs",
+    "name" : "Madame Tussaud'S"
+}
+
+/* 8 */
+{
+    "_id" : ObjectId("6180c7664fa845b6a11293f3"),
+    "address" : {
+        "coord" : [ 
+            -73.9562372, 
+            40.7761697
+        ]
+    },
+    "borough" : "Manhattan",
+    "cuisine" : "American ",
+    "name" : "Mad River Bar & Grille"
+}

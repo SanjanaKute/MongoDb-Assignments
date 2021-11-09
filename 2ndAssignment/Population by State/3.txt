@@ -1,0 +1,20 @@
+db.getCollection('zip_codes').aggregate([{$group:{_id:"$state",totalpop:{$sum:"$pop"}}},{$sort:{totalpop:-1}},{$limit:3}])
+
+
+/* 1 */
+{
+    "_id" : "CA",
+    "totalpop" : 29754890
+}
+
+/* 2 */
+{
+    "_id" : "NY",
+    "totalpop" : 17990402
+}
+
+/* 3 */
+{
+    "_id" : "TX",
+    "totalpop" : 16984601
+}

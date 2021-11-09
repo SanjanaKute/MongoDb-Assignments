@@ -1,0 +1,69 @@
+db.getCollection('movies').find({})
+
+/* 1 */
+{
+    "_id" : ObjectId("617d6d34976987041b654e0d"),
+    "title" : "Fight Club",
+    "writer" : "Chuch Palahniuko",
+    "year" : 1999,
+    "actors" : [ 
+        "Brad pitt", 
+        "Edward Norton"
+    ]
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("617d6e02976987041b654e0f"),
+    "title" : "Pulp Fiction",
+    "writer" : "Quentin Tarantino",
+    "year" : 1994,
+    "actors" : [ 
+        "John Travolta ", 
+        "Uma Thurman", 
+        "Samuel L. Jackson"
+    ]
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("617d6e9a976987041b654e10"),
+    "title" : "Inglorious Basterds",
+    "writer" : "Quentin Tarantino",
+    "year" : 2009,
+    "actors" : [ 
+        "Brad pitt", 
+        "Diane Kruger", 
+        "Eli Roth"
+    ]
+}
+
+/* 4 */
+{
+    "_id" : ObjectId("617d6f39976987041b654e11"),
+    "title" : "The Hobbit:An Unexpected Journey",
+    "writer" : "J.R.R.Tolkein",
+    "year" : 2012,
+    "franchise" : "The Hobbit",
+    "synopsis" : "A reluctant hobbit, Bilbo Baggins, sets out to the Lonely Mountain with a spirited group of dwarves to reclaim their moutain home-and the gold within it-from the dragon Smaug."
+}
+
+/* 5 */
+{
+    "_id" : ObjectId("617d703f976987041b654e12"),
+    "title" : "The Hobbit:An Desolation of Smaug",
+    "writer" : "J.R.R.Tolkein",
+    "year" : 2013,
+    "franchise" : "The Hobbit",
+    "synopsis" : "The dwarves,along with Bilbo Baggins and Gandalf the Grey, continue their quest to reclaim Erebor, their homeland, from Smaug. Bilbo Baggins is in possessionof a mysterious and magical ring."
+}
+
+/* 6 */
+{
+    "_id" : ObjectId("617d70a4976987041b654e13"),
+    "title" : "The Hobbit:The Battle of the Five Armies",
+    "writer" : "J.R.R.Tolkein",
+    "year" : 2012,
+    "franchise" : "The Hobbit",
+    "synopsis" : "Bilbo and Company are forced to engaged in a war against an array of combatants and keep the Lonely Mountain from falling into the hands of a raising darkness"
+}

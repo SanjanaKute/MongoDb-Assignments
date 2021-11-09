@@ -1,0 +1,25 @@
+db.getCollection('posts').find({},{"posts":"ScumbagSteve"});
+
+/* 1 */
+{
+    "_id" : ObjectId("617e694da7807afd4d9a553e"),
+    "username" : "ScumbagSteve",
+    "title" : "Borrows something",
+    "body" : "Sells it"
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("617e6985a7807afd4d9a553f"),
+    "username" : "ScumbagSteve",
+    "title" : "Borrows everything",
+    "body" : "The end"
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("617e69a5a7807afd4d9a5540"),
+    "username" : "ScumbagSteve",
+    "title" : "Forks your repo on github",
+    "body" : "Sets to private"
+}

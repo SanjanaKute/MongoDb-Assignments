@@ -1,0 +1,402 @@
+db.getCollection('addresses').find({"borough":{$nin:["Staten Island","Queens","Bronx","Brooklyn"]}},{"restaurant-'id":1,"name":1,"borough":1,"cuisine":1});
+
+
+/* 1 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a1128649"),
+    "borough" : "Manhattan",
+    "cuisine" : "Irish",
+    "name" : "Dj Reynolds Pub And Restaurant"
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a1128654"),
+    "borough" : "Manhattan",
+    "cuisine" : "American ",
+    "name" : "1 East 66Th Street Kitchen"
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a1128659"),
+    "borough" : "Manhattan",
+    "cuisine" : "American ",
+    "name" : "Glorious Food"
+}
+
+/* 4 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a112865c"),
+    "borough" : "Manhattan",
+    "cuisine" : "Delicatessen",
+    "name" : "Bully'S Deli"
+}
+
+/* 5 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a112865e"),
+    "borough" : "Manhattan",
+    "cuisine" : "Chicken",
+    "name" : "Harriet'S Kitchen"
+}
+
+/* 6 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a112865f"),
+    "borough" : "Manhattan",
+    "cuisine" : "American ",
+    "name" : "P & S Deli Grocery"
+}
+
+/* 7 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a1128660"),
+    "borough" : "Manhattan",
+    "cuisine" : "American ",
+    "name" : "Angelika Film Center"
+}
+
+/* 8 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a1128663"),
+    "borough" : "Manhattan",
+    "cuisine" : "Turkish",
+    "name" : "The Country Cafe"
+}
+
+/* 9 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a1128665"),
+    "borough" : "Manhattan",
+    "cuisine" : "American ",
+    "name" : "Downtown Deli"
+}
+
+/* 10 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a1128669"),
+    "borough" : "Manhattan",
+    "cuisine" : "Bakery",
+    "name" : "Olive'S"
+}
+
+/* 11 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a112866b"),
+    "borough" : "Manhattan",
+    "cuisine" : "American ",
+    "name" : "Cafe Metro"
+}
+
+/* 12 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a112866d"),
+    "borough" : "Manhattan",
+    "cuisine" : "Sandwiches/Salads/Mixed Buffet",
+    "name" : "Lexler Deli"
+}
+
+/* 13 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a1128671"),
+    "borough" : "Manhattan",
+    "cuisine" : "Continental",
+    "name" : "Lorenzo & Maria'S"
+}
+
+/* 14 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a1128672"),
+    "borough" : "Manhattan",
+    "cuisine" : "Pizza",
+    "name" : "Domino'S Pizza"
+}
+
+/* 15 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a1128673"),
+    "borough" : "Manhattan",
+    "cuisine" : "American ",
+    "name" : "Berkely"
+}
+
+/* 16 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a1128677"),
+    "borough" : "Manhattan",
+    "cuisine" : "Pizza",
+    "name" : "Domino'S Pizza"
+}
+
+/* 17 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a1128678"),
+    "borough" : "Manhattan",
+    "cuisine" : "American ",
+    "name" : "Spoon Bread Catering"
+}
+
+/* 18 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a112867e"),
+    "borough" : "Manhattan",
+    "cuisine" : "Chicken",
+    "name" : "Texas Rotisserie"
+}
+
+/* 19 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a1128681"),
+    "borough" : "Manhattan",
+    "cuisine" : "American ",
+    "name" : "Metropolitan Club"
+}
+
+/* 20 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a1128682"),
+    "borough" : "Manhattan",
+    "cuisine" : "American ",
+    "name" : "Palm Restaurant"
+}
+
+/* 21 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a1128683"),
+    "borough" : "Manhattan",
+    "cuisine" : "American ",
+    "name" : "21 Club"
+}
+
+/* 22 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a1128685"),
+    "borough" : "Manhattan",
+    "cuisine" : "Italian",
+    "name" : "Isle Of Capri Resturant"
+}
+
+/* 23 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a1128686"),
+    "borough" : "Manhattan",
+    "cuisine" : "American ",
+    "name" : "Old Town Bar & Restaurant"
+}
+
+/* 24 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a1128688"),
+    "borough" : "Manhattan",
+    "cuisine" : "Latin (Cuban, Dominican, Puerto Rican, South & Central American)",
+    "name" : "Seville Restaurant"
+}
+
+/* 25 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a1128689"),
+    "borough" : "Manhattan",
+    "cuisine" : "American ",
+    "name" : "Criminal Court Bldg Cafeteria"
+}
+
+/* 26 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a112868b"),
+    "borough" : "Manhattan",
+    "cuisine" : "American ",
+    "name" : "Nyac Main Dining Room"
+}
+
+/* 27 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a112868c"),
+    "borough" : "Manhattan",
+    "cuisine" : "American ",
+    "name" : "7B Bar"
+}
+
+/* 28 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a112868e"),
+    "borough" : "Manhattan",
+    "cuisine" : "American ",
+    "name" : "Cafe Atelier (Art Students League)"
+}
+
+/* 29 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a112868f"),
+    "borough" : "Manhattan",
+    "cuisine" : "Steak",
+    "name" : "Donohue'S Steak House"
+}
+
+/* 30 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a1128690"),
+    "borough" : "Manhattan",
+    "cuisine" : "French",
+    "name" : "Tout Va Bien"
+}
+
+/* 31 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a1128693"),
+    "borough" : "Manhattan",
+    "cuisine" : "Italian",
+    "name" : "Marchis Restaurant"
+}
+
+/* 32 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a1128695"),
+    "borough" : "Manhattan",
+    "cuisine" : "Continental",
+    "name" : "Dining Room"
+}
+
+/* 33 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a1128696"),
+    "borough" : "Manhattan",
+    "cuisine" : "American ",
+    "name" : "Old Homestead"
+}
+
+/* 34 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a1128699"),
+    "borough" : "Manhattan",
+    "cuisine" : "American ",
+    "name" : "Serendipity 3"
+}
+
+/* 35 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a112869d"),
+    "borough" : "Manhattan",
+    "cuisine" : "American ",
+    "name" : "White Horse Tavern"
+}
+
+/* 36 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a11286a1"),
+    "borough" : "Manhattan",
+    "cuisine" : "Irish",
+    "name" : "Mcsorley'S Old Ale House"
+}
+
+/* 37 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a11286a2"),
+    "borough" : "Manhattan",
+    "cuisine" : "Italian",
+    "name" : "Forlinis Restaurant"
+}
+
+/* 38 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a11286a4"),
+    "borough" : "Manhattan",
+    "cuisine" : "American ",
+    "name" : "Corner Bistro"
+}
+
+/* 39 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a11286a6"),
+    "borough" : "Manhattan",
+    "cuisine" : "Irish",
+    "name" : "Dorrian'S Red Hand Restaurant"
+}
+
+/* 40 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a11286a7"),
+    "borough" : "Manhattan",
+    "cuisine" : "French",
+    "name" : "La Grenouille"
+}
+
+/* 41 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a11286a8"),
+    "borough" : "Manhattan",
+    "cuisine" : "Pizza",
+    "name" : "Como Pizza"
+}
+
+/* 42 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a11286a9"),
+    "borough" : "Manhattan",
+    "cuisine" : "American ",
+    "name" : "Keats Restaurant"
+}
+
+/* 43 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a11286aa"),
+    "borough" : "Manhattan",
+    "cuisine" : "Italian",
+    "name" : "Angelo Of Mulberry St."
+}
+
+/* 44 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a11286ab"),
+    "borough" : "Manhattan",
+    "cuisine" : "Mexican",
+    "name" : "Panchito'S"
+}
+
+/* 45 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a11286ad"),
+    "borough" : "Manhattan",
+    "cuisine" : "American ",
+    "name" : "The Princeton Club"
+}
+
+/* 46 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a11286ae"),
+    "borough" : "Manhattan",
+    "cuisine" : "Italian",
+    "name" : "Arturo'S"
+}
+
+/* 47 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a11286af"),
+    "borough" : "Manhattan",
+    "cuisine" : "French",
+    "name" : "Le Perigord"
+}
+
+/* 48 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a11286b0"),
+    "borough" : "Manhattan",
+    "cuisine" : "American ",
+    "name" : "Reynold'S Bar"
+}
+
+/* 49 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a11286b2"),
+    "borough" : "Manhattan",
+    "cuisine" : "Spanish",
+    "name" : "Spain Restaurant & Bar"
+}
+
+/* 50 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a11286b5"),
+    "borough" : "Manhattan",
+    "cuisine" : "Donuts",
+    "name" : "Donut Pub"
+}

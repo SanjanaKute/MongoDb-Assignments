@@ -1,0 +1,26 @@
+db.getCollection('movies').find({year:{$lte:1999}})
+
+/* 1 */
+{
+    "_id" : ObjectId("617d6d34976987041b654e0d"),
+    "title" : "Fight Club",
+    "writer" : "Chuch Palahniuko",
+    "year" : 1999,
+    "actors" : [ 
+        "Brad pitt", 
+        "Edward Norton"
+    ]
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("617d6e02976987041b654e0f"),
+    "title" : "Pulp Fiction",
+    "writer" : "Quentin Tarantino",
+    "year" : 1994,
+    "actors" : [ 
+        "John Travolta ", 
+        "Uma Thurman", 
+        "Samuel L. Jackson"
+    ]
+}

@@ -1,0 +1,28 @@
+db.getCollection('movies').find({writer:"Quentin Tarantino"})
+
+
+/* 1 */
+{
+    "_id" : ObjectId("617d6e02976987041b654e0f"),
+    "title" : "Pulp Fiction",
+    "writer" : "Quentin Tarantino",
+    "year" : 1994,
+    "actors" : [ 
+        "John Travolta ", 
+        "Uma Thurman", 
+        "Samuel L. Jackson"
+    ]
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("617d6e9a976987041b654e10"),
+    "title" : "Inglorious Basterds",
+    "writer" : "Quentin Tarantino",
+    "year" : 2009,
+    "actors" : [ 
+        "Brad pitt", 
+        "Diane Kruger", 
+        "Eli Roth"
+    ]
+}

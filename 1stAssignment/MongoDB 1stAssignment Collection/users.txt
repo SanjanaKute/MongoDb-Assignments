@@ -1,0 +1,16 @@
+/* 1 */
+{
+    "_id" : ObjectId("617e6787a7807afd4d9a5537"),
+    "username" : "GoodGuyGreg",
+    "first_name" : "Good Guy",
+    "last_name" : "Greg"
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("617e6817a7807afd4d9a5538"),
+    "username" : "ScumbagSteve",
+    "full_name" : "",
+    "first_name" : "Scumbag",
+    "last_name" : "Steve"
+}

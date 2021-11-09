@@ -1,0 +1,38 @@
+db.getCollection('addresses').find({},{"restaurants_id":1,"name":1,"cuisine":1});
+
+
+
+/* 1 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a1128647"),
+    "cuisine" : "Bakery",
+    "name" : "Morris Park Bake Shop"
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a1128648"),
+    "cuisine" : "Hamburgers",
+    "name" : "Wendy'S"
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a1128649"),
+    "cuisine" : "Irish",
+    "name" : "Dj Reynolds Pub And Restaurant"
+}
+
+/* 4 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a112864a"),
+    "cuisine" : "American ",
+    "name" : "Riviera Caterer"
+}
+
+/* 5 */
+{
+    "_id" : ObjectId("6180c7554fa845b6a112864b"),
+    "cuisine" : "Jewish/Kosher",
+    "name" : "Tov Kosher Kitchen"
+}
